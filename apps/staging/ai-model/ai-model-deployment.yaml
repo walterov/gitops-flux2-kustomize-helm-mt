@@ -2,6 +2,7 @@ apiVersion: kaito.sh/v1alpha1
 kind: Workspace
 metadata:
  name: workspace-falcon-7b
+ namespace: ai-workspace
 resource:
  labelSelector:
    matchLabels:
