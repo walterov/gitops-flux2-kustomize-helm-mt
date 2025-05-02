@@ -1,1 +1,11 @@
-
+apiVersion: kaito.sh/v1alpha1
+kind: Workspace
+metadata:
+ name: workspace-falcon-7b
+resource:
+ labelSelector:
+   matchLabels:
+     app: llm-inference
+inference:
+ preset:
+   name: "falcon-7b-instruct"
