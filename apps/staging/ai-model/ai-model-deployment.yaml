@@ -4,8 +4,8 @@ metadata:
  name: workspace-mistral-7b
  namespace: ai-workspace
 resource:
+ instanceType: "Standard_NC16_A2"
  labelSelector:
-   instanceType: "Standard_NC16_A2"
    matchLabels:
      app: llm-inference
 inference:
