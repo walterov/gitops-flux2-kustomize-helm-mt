@@ -5,7 +5,7 @@ metadata:
  namespace: ai-workspace
 resource:
  labelSelector:
-   instanceType: "Standard_NC8_A2"
+   instanceType: "Standard_NC16_A2"
    matchLabels:
      app: llm-inference
 inference:
