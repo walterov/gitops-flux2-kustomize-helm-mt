@@ -1,7 +1,7 @@
 apiVersion: kaito.sh/v1alpha1
 kind: Workspace
 metadata:
- name: workspace-falcon-7b
+ name: workspace-mistral-7b
  namespace: ai-workspace
 resource:
  labelSelector:
@@ -9,4 +9,4 @@ resource:
      app: llm-inference
 inference:
  preset:
-   name: "falcon-7b-instruct"
+   name: "mistral-7b-instruct"
