@@ -1,13 +1,13 @@
 apiVersion: kaito.sh/v1alpha1
 kind: Workspace
 metadata:
- name: workspace-mistral-7b
+ name: workspace-falcon-7b
  namespace: ai-workspace
 resource:
- instanceType: "MOCVirtualMachine"
+ instanceType: "Standard_NC16_A2"
  labelSelector:
    matchLabels:
      app: llm-inference
 inference:
  preset:
-   name: "mistral-7b-instruct"
+   name: "falcon-7b-instruct"
