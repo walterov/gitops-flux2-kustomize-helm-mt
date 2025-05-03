@@ -4,7 +4,7 @@ metadata:
  name: workspace-mistral-7b
  namespace: ai-workspace
 resource:
- instanceType: "Standard_NC16_A2"
+ instanceType: "MOCVirtualMachine"
  labelSelector:
    matchLabels:
      app: llm-inference
