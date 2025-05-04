@@ -3,12 +3,11 @@ kind: Workspace
 metadata:
   name: workspace-phi-2
   namespace: ai-workspace
-spec:
-  resource:
-    instanceType: "Standard_NC16_A2"
-    labelSelector:
-      matchLabels:
-        app: llm-inference
-  inference:
-    preset:
-      name: "phi-2"
+resource:
+  instanceType: "Standard_NC16_A2"
+  labelSelector:
+    matchLabels:
+      app: llm-inference
+inference:
+  preset:
+  name: "phi-2"
