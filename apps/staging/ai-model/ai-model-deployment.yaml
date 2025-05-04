@@ -1,7 +1,7 @@
 apiVersion: kaito.sh/v1alpha1
 kind: Workspace
 metadata:
-  name: workspace-phi-3-mini
+  name: workspace-falcon-7b
   namespace: ai-workspace
 resource:
   instanceType: "Standard_NC16_A2"
@@ -10,4 +10,4 @@ resource:
       app: llm-inference
 inference:
   preset:
-    name: "phi-3-mini"
+    name: "falcon-7b-instruct"
