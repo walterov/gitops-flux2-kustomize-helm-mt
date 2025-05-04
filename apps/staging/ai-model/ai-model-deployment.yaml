@@ -10,4 +10,4 @@ resource:
       app: llm-inference
 inference:
   preset:
-  name: "phi-2"
+    name: "phi-2"
