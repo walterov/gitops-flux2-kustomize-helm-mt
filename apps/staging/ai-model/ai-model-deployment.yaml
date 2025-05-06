@@ -1,13 +1,14 @@
 apiVersion: kaito.sh/v1alpha1
 kind: Workspace
 metadata:
+  namespace: ai-workspace
   name: workspace-phi-3-mini
 resource:
   labelSelector:
     matchLabels:
       apps: llm-inference
   preferredNodes:
-  -  moc-llkpg635byg
+  -  moc-l0y3rt2xd0g
 inference:
   preset:
     name: "phi-3-mini-4k-instruct"
