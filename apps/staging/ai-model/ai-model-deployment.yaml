@@ -1,13 +1,13 @@
 apiVersion: kaito.sh/v1alpha1
 kind: Workspace
 metadata:
-  name: workspace-falcon-7b
-  namespace: ai-workspace
+  name: workspace-phi-3-mini
 resource:
-  instanceType: "Standard_NC16_A2"
   labelSelector:
     matchLabels:
-      app: llm-inference
+      apps: llm-inference
+  preferredNodes:
+  -  moc-lmf0eqwuz6v
 inference:
   preset:
-    name: "falcon-7b-instruct"
+    name: "phi-3-mini-4k-instruct"
