@@ -8,7 +8,7 @@ resource:
     matchLabels:
       apps: llm-inference
   preferredNodes:
-  -  moc-lz5fa7qiapn
+  -  moc-lau2px0t0lu
 inference:
   preset:
     name: "phi-3-mini-4k-instruct"
