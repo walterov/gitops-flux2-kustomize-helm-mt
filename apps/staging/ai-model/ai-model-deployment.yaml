@@ -7,8 +7,6 @@ resource:
   labelSelector:
     matchLabels:
       apps: llm-inference
-  preferredNodes:
-  -  moc-lrb2c25vsar
 inference:
   preset:
     name: "phi-3-mini-4k-instruct"
